@@ -34,9 +34,9 @@ android {
         buildConfigField("String", "GIT_VERSION", "\"" + androidGitVersion.name() + "\"")
 
         // minSdk = 23
-        minSdk = 29
+        minSdk = 35
         // targetSdk = 35
-        targetSdk = 34
+        targetSdk = 35
 
         applicationId = "willemw12.simpletask"
 
