@@ -590,8 +590,8 @@ class Simpletask : ThemedNoActionBarActivity() {
                     createCalendarAppointment(TodoApplication.todoList.selectedTasks)
                 }
             }, Mode.MAIN to {
-                @StyleableRes val primaryIdx = 0
-                @StyleableRes val primaryDarkIdx = 1
+                val primaryIdx = 0
+                val primaryDarkIdx = 1
 
                 val a: TypedArray = obtainStyledAttributes(
                     intArrayOf(
